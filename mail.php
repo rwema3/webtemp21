@@ -22,7 +22,7 @@
 	ob_start();
 	?>
 		Hi imransdesign!<br /><br />
-		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your website!
+		<?php echo ucfirst( $name ); ?>  has sent you a message via contact form on your Web
 		<br /><br />
 		
 		Name: <?php echo ucfirst( $name ); ?><br />
