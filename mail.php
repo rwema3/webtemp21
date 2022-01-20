@@ -43,7 +43,7 @@
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
 	if( $s == 1 ){
-		echo '<div class="success"><i class="fas fa-check-circle"></i><h3>Thank You!</h3>Your message has been sent successfully.</div>';
+		echo '<div class="success"><i class="fas fa-check-circle"></i><h3>Thank You!</h3>Your message has been sent successfully!</div>';
 	}else{
 		echo '<div>Try again dear!</div>';
 	}
