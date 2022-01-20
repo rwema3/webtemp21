@@ -45,7 +45,7 @@
 	if( $s == 1 ){
 		echo '<div class="success"><i class="fas fa-check-circle"></i><h3>Thank You!</h3>Your message has been sent successfully.</div>';
 	}else{
-		echo '<div>Your message sending failed!</div>';
+		echo '<div>Try again</div>';
 	}
 
 	
